@@ -20,7 +20,7 @@ class MinhaClasseFactoryImplTest extends TestCase
         $this->assertEquals($minhaClasse->getPropriedade1(), 'Olá');
         $this->assertEquals($minhaClasse->getPropriedade2(), 'Mundo');
         $this->assertEquals($minhaClasse->getPropriedade3(), '!');
-        
+
         // Realize os testes aqui
         $this->assertInstanceOf( MinhaClasseFactoryImpl::class, $factory);
         $this->assertInstanceOf( \MinhaApp\MinhaClasse::class, $minhaClasse);

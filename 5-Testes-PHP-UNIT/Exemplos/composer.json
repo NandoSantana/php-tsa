@@ -1,0 +1,11 @@
+{
+    "name": "fernandosantana/php-tsa",
+    "autoload": {
+        "psr-4": {
+            "MinhaApp\\": "src/MinhaApp"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}

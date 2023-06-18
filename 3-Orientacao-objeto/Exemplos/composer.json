@@ -1,0 +1,9 @@
+{
+    "name": "fernandosantana/php-tsa",
+    "autoload": {
+        "psr-4": {
+            "MinhaApp\\": "src/MinhaApp"
+        }
+    },
+    "require": {}
+}
